@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+models/*.pkl
+models/*.onnx
+
+# Dataset files
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+
+# Runtime and generated results
+data/docker_runtime/
+data/orthanc_results.json
+reports/generated/
+
+# Frontend dependencies
+app/node_modules/
+app/dist/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker overrides
+docker-compose.override.yml
+
+
+# Lung09 dataset
+lung09/
